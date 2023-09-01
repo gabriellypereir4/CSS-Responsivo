@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CSS Responsivo</title>
+    <style>
+      * {
+        margin: 0;
+      }
+      section {
+        background-color: #86c3f4;
+        width: 1200px;
+      }
+
+      @media (max-width: 1200px) {
+        section {
+          width: 1000px;
+          background-color: rgb(126, 97, 155);
+        }
+      }
+
+      @media (max-width: 1024px) {
+        section {
+          width: 700px;
+          background-color: rgb(106, 235, 192);
+        }
+      }
+
+      @media (max-width: 768px) {
+        section {
+          width: 400px;
+          background-color: rgb(255, 150, 222);
+        }
+      }
+
+      @media (max-width: 425px) {
+        section {
+          width: 320px;
+          background-color: rgb(205, 223, 103);
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Site Responsivo</h1>
+    <section>
+      <p>Conteudo do site</p>
+    </section>
+  </body>
+</html>
